@@ -712,7 +712,7 @@ void edytujKontakt(vector<Kontakt> &kontakty, int idZalogowanegoUzytkownika)
                     }
 
                     tymczasowyPlikTekstowy << osoba.id << '|';
-                    tymczasowyPlikTekstowy << uzytkownik.id << '|';
+                    tymczasowyPlikTekstowy << idZalogowanegoUzytkownika << '|';
                     tymczasowyPlikTekstowy << osoba.imie << '|';
                     tymczasowyPlikTekstowy << osoba.nazwisko << '|';
                     tymczasowyPlikTekstowy << osoba.nrTelefonu << '|';
