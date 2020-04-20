@@ -363,7 +363,7 @@ void wczytajDaneKontaktowZPlikuTekstowego(vector<Kontakt> &kontakty, int idZalog
     }
     else
     {
-        cout << "Nie mozna otworzyc pliku " << nazwaPlikuKontaktow << endl;
+        cout << "Ksiazka adresowa jest pusta. Dodaj kontakt " << endl;
         Sleep(1500);
     }
 }
